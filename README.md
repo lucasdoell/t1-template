@@ -1,8 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) template project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+This template is a JavaScript version of my [T2 Template](https://github.com/lucasdoell/t2-template), inspired by [create-t3-app](https://github.com/t3-oss/create-t3-app). If you don't want the extra complexity with TypeScript, this template may be the right choice for you. It includes:
+- Tailwind CSS
+  - [Prettier for Tailwind](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) support
+- An SEO component for easy meta tags
+- Custom `_document.js` and `_app.js` files
+- Recommended extensions for better DX
+
+Feel free to add node modules as the project needs. This template is meant to be a starting point for your project, not a finished product. 
+Therefore, modules such as tRPC and Prisma are not included, as they may not be necessary for simple websites. If you would like to create a project 
+with those configured by default, check out [create-t3-app](https://github.com/t3-oss/create-t3-app). 
 
 ## Getting Started
 
-First, run the development server:
+Run the following command to create a new project:
+
+```bash
+npx create-next-app [project-name] -e https://github.com/lucasdoell/t1-template
+# or
+yarn create next-app [project-name] -e https://github.com/lucasdoell/t1-template
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
